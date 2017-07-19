@@ -34,6 +34,7 @@ body {
 
 #page_content section {
     border-bottom: 3px solid #dddddd;
+    padding-bottom: 30px;
 }
 
 .main_navigation a {
@@ -65,9 +66,30 @@ section h1, h2, h3 {
 
 table {
     border: 1px solid #1fabe5;
+    width: 100%;
 }
 
-thead {
-    background-color: #1fabe5;
+thead td {
+    border: 1px solid #046c97;
+    padding: 10px 10px 10px 10px;
     color: white;
+    background-color: #1fabe5;
+}
+
+table, td {
+    border: 1px solid #1fabe5;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody td img {
+    height: 50px;
+}
+
+form {
+    background-color: #ddd;
 }
