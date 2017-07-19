@@ -1,1 +1,58 @@
-font info: family - Helvetica, Arial, sans-serif line-height - 1.6 colors: light gray - ##eee gray - #dddddd yellow - #ffd24a orange - #ff8523 blue - #1fabe5 dark blue - #046c97
+/*
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    border: solid 1px #ffd24a;
+    border-radius: 4px;
+    /* background-image: url("img/bg.jpg");*/
+    background-repeat: repeat-y repeat-x;
+    margin: 10px 80px 10px 80px;
+}
+
+#site_header {
+    background-color: #ff8523;
+    padding: 20px;
+}
+
+#page_content {
+    background-color: #fff;
+    /*margin: 20px;*/
+    padding-left: 20px;
+}
+
+#page_content section {
+    border-bottom: 2px solid #dddddd;
+    background-color: #fff;
+}
+
+.main_navigation a {
+    font-weight: bold;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+}
+
+
+/*
+#logo {
+    padding: 100px 30px 200px 0px;
+}*/
+
+a:hover {
+    color: #046c97;
+}
+
+section h1, h2, h3 {
+    color: #1fabe5;
+}
