@@ -33,7 +33,7 @@ body {
 }
 
 #page_content section {
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 4px solid #dddddd;
     padding-bottom: 30px;
     padding-top: 10px;
 }
@@ -107,16 +107,33 @@ form .name {
     color: #fff;
 }
 
+.name label {
+    margin-left: 20px;
+}
+
 #first_name, #last_name {
-    height: 30px;
-    width: 180px;
+    height: 40px;
+    width: 200px;
+}
+
+#bio {
+    width: 97%;
+    height: 200px;
+    border-color: #1fabe5;
+    margin: 10px 0;
+    font-size: 1em;
+    padding: 10px;
 }
 
 #submit_button {
     color: #fff;
+    font-size: 14px;
+    font-weight: bold;
     text-transform: uppercase;
     background-color: #1fabe5;
     border-radius: 4px;
     border: 0;
     padding: 15px;
+    width: 100px;
+    margin-top: 10px;
 }
