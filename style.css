@@ -38,6 +38,10 @@ body {
     padding-top: 10px;
 }
 
+#page_content li {
+    font-weight: bold;
+}
+
 .main_navigation {
     margin-top: 20px;
 }
@@ -87,6 +91,9 @@ tbody td {
 
 tbody td img {
     height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form {
@@ -108,12 +115,17 @@ form .name {
 }
 
 .name label {
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 #first_name, #last_name {
     height: 40px;
-    width: 200px;
+    width: 30%;
+    display: inline;
+}
+
+.name label:nth-of-type(2) {
+    margin-left: 20px;
 }
 
 #bio {
