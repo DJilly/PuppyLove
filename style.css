@@ -14,7 +14,7 @@ colors:
 }
 
 body {
-    border: solid 1.5px #ffd24a;
+    border: solid 2px #ffd24a;
     border-radius: 4px;
     background-image: url("img/bg.jpg");
     background-repeat: repeat-y repeat-x;
@@ -23,18 +23,23 @@ body {
 
 #site_header {
     background-color: #ff8523;
-    padding: 20px 20px 30px 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 #page_content {
     background-color: #fff;
     padding: 10px 20px 0px 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #page_content section {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.main_navigation {
+    margin-top: 20px;
 }
 
 .main_navigation a {
@@ -45,12 +50,6 @@ body {
     border-radius: 3px;
     padding: 10px 25px 10px 25px;
 }
-
-
-/*
-#logo {
-    padding: 100px 30px 200px 0px;
-}*/
 
 a {
     color: #1fabe5;
@@ -79,7 +78,7 @@ thead td {
 table, td {
     border: 1px solid #1fabe5;
     border-collapse: collapse;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 tbody td {
@@ -92,4 +91,32 @@ tbody td img {
 
 form {
     background-color: #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+form .city_container {
+    padding: 20px 0;
+}
+
+form .name {
+    background-color: #ff8523;
+    border-radius: 6px;
+    padding: 20px;
+    color: #fff;
+}
+
+#first_name, #last_name {
+    height: 30px;
+    width: 180px;
+}
+
+#submit_button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #1fabe5;
+    border-radius: 4px;
+    border: 0;
+    padding: 15px;
 }
